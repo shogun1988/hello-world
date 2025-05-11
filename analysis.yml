@@ -20,3 +20,4 @@ jobs:
   - script: echo This script runs before the template's steps, only on Windows.
   - template: templates/npm-steps.yml  # Template reference
   - script: echo This step runs after the template's steps.
+ - script: echo This is my first testfile template.
